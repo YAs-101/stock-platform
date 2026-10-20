@@ -1,4 +1,4 @@
-# StockPulse — 股票检测统计平台 v0.1
+# StockPulse — 股票检测统计平台 
 
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.2.5-brightgreen)](https://spring.io/projects/spring-boot)
 [![Spring Cloud](https://img.shields.io/badge/Spring%20Cloud-2023.0.1-blue)](https://spring.io/projects/spring-cloud)
@@ -7,7 +7,6 @@
 
 基于 **Spring Cloud 微服务架构**的 A 股数据检测统计平台。提供股票搜索、K 线查询、异常检测预警、多维度统计排行及 ECharts 可视化仪表盘。
 
-> **v0.1 为未完成版本**，核心功能可用，详见下方完成度。
 
 ## 技术栈
 
@@ -84,7 +83,7 @@ python scripts/collect_baostock.py
 
 ## 数据库表
 
-| 表名 | 说明 | v0.1 状态 |
+| 表名 | 说明 | 状态 |
 |------|------|-----------|
 | stock_basic | 股票基本信息 | 5807 条 |
 | daily_quote | 日线行情 | 291,814 条 |
@@ -93,7 +92,7 @@ python scripts/collect_baostock.py
 | detect_alert | 预警记录 | 运行时生成 |
 | sys_user | 用户信息 | 运行时注册 |
 
-## v0.1 完成度
+## 完成度
 
 - [x] 6 模块微服务架构
 - [x] Nacos 服务注册发现
